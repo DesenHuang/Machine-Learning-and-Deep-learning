@@ -3,4 +3,5 @@
 * (学习链接)[https://zhuanlan.zhihu.com/p/31886934]
 SVM学习的基本想法是求解能够正确划分训练数据集并且几何间隔最大的分离超平面。对于线性可分的数据集来说，这样的超平面有无穷多个（即感知机），但是几何间隔最大的分离超平面却是唯一的。
 
-其损失函数为：$$J(\Theta ) = \frac{1}{2}\left \| \Theta  \right \|^{2}+C \underset{i}{\sum}max(0,1-y_{i}(\Theta ^{T}x_{i}+b))$$
+其损失函数为：
+$$ J(\Theta ) = \frac{1}{2}\left \| \Theta  \right \|^{2}+C \underset{i}{\sum}max(0,1-y_{i}(\Theta ^{T}x_{i}+b)) $$
