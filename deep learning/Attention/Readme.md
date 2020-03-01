@@ -3,4 +3,5 @@
 * 让系统更加容易的找到输入的数据中与当前输出信息相关的有用信息,从而提高输出的质量。
 * 帮助类似于decoder这样的模型框架更好的学到多种内容模态之间的相互关系。
 
+* soft attention，hard attention，multi head attention
 
