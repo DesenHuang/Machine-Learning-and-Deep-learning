@@ -14,12 +14,13 @@ $$ logit(p) = log\frac{p}{1-p} $$
 --> 对于逻辑斯地回归而言，输出$y=1$的对数几率是输入x的线性函数。即：
 $$ log\frac{P(y=1|\mathbf{x})}{1-P(Y=1|\mathbf{x})} = \mathbf{w}^{T}\mathbf{x} + b $$
 
-**模型参数估计:** 在逻辑斯蒂回归模型学习时，对于给定的训练数据集$T={(\mathbf{x}_{1},y_{1}),(\mathbf{x}_{2},y_{2}),\cdots,(\mathbf{x}_{N},y_{N})}$，其中，$x_{i}\in \mathbb{R}^{n}$, $y_{i} \in \{0,1\}$ ,应用极大似然估计法估计模型参数，从而得到逻辑斯蒂回归模型。
+**模型参数估计:** 在逻辑斯蒂回归模型学习时，对于给定的训练数据集
+$$T={(\mathbf{x}_{1},y_{1}),(\mathbf{x}_{2},y_{2}),\cdots,(\mathbf{x}_{N},y_{N})}$$，
+其中，$x_{i}\in \mathbb{R}^{n}$, $y_{i} \in \{0,1\}$ ,应用极大似然估计法估计模型参数，从而得到逻辑斯蒂回归模型。
 
 设：$P(y=1|\mathbf{x}) = \mathbf{\pi(x)}$ ，$P(y=0|\mathbf(x) = 1 - \mathbf{\pi(x)})$
 
-似然函数为：
-$$ \prod_{i=1}^{N}[\mathbf{\pi}(\mathbf{x}_{i})]^{y_{i}}[1-\mathbf{\pi}(\mathbf{x}_{i})]^{1-y_{i}}$$
+似然函数为：$\prod_{i=1}^{N}[\mathbf{\pi}(\mathbf{x}_{i})]^{y_{i}}[1-\mathbf{\pi}(\mathbf{x}_{i})]^{1-y_{i}}$
 
 对数似然函数为：
 $$
