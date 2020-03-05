@@ -144,7 +144,7 @@ $$
 $$
 \begin{aligned}
 L(\mathbf{w},b,\mathbf{\alpha}, \mathbf{\xi}, \mathbf{\mu}) = &\frac{1}{2}||\mathbf{w}^{2} + C\sum_{i=1}^{m}\xi_{i}\\
-&+\sum_{i=1}^{m}(1-\xi_{i}-y_{i}(\mathbf{w}^{T}\mathbf{x}_{i}+b)) - \sum_{i=1}^{m}\mu_{i}\xi_{i}
+&+\sum_{i=1}^{m}\alpha_{i}(1-\xi_{i}-y_{i}(\mathbf{w}^{T}\mathbf{x}_{i}+b)) - \sum_{i=1}^{m}\mu_{i}\xi_{i}
 \end{aligned}
 $$
 
