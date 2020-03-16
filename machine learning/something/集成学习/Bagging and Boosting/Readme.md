@@ -17,6 +17,8 @@
 #### Boosting减少模型的偏差
 ![avater](boosting降低偏差.png)
 
+#### 理解偏差_方差_噪声对模型泛化性能的影响
+![avater](理解偏差_方差_噪声对模型泛化性能的影响.png)
 
 ## Blending 与 Stacking
 * Blending：用不相交的数据训练不同的 Base Model，将它们的输出取（加权）平均。实现简单，但对训练数据利用少了。
