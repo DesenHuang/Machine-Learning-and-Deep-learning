@@ -6,7 +6,7 @@
 * soft attention（矩阵相乘或者网络参数学习），hard attention（随机化），multi head attention
 
 
-![avater](soft_attention&#32;VS&#32;hard&#32;one.png)
+![avater](1soft_attention&#32;VS&#32;hard&#32;one.png)
 ## Attention出处：
 Neural Machine Translation by Jointly Learning to Align and Translate， ICLR 2015, Bengio
 
