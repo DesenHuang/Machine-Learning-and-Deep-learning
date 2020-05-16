@@ -89,4 +89,10 @@ $$
 ## LR交叉熵梯度推导
 ![avater](LR交叉熵损失梯度推导0.png)
 ![avater](LR交叉熵损失梯度推导.png)
-![avater](LR交叉熵损失梯度推导2.png)
+![avater](LR交叉熵损失梯度推导1.png)
+
+## 二阶导大于0（sigmoid + Logloss为凸函数，sigmoid+MSE非凸函数不行）
+![avater](sigmoid函数LR二阶导大于0_凸函数证明.png)
+
+
+LR是凸函数（sigmoid+交叉熵）吗？怎么优化（SGD)？SVM的目标函数也是凸函数(w^2/2)，这意味着有全局最优解，这意味着结果是唯一的吗(江月认同（不过SGD， 但要有合适的学习率什么的才能收敛到全局最优解，类比二次函数的最小值：相当于参数为x, LR/SVM相当于对参数w）？
