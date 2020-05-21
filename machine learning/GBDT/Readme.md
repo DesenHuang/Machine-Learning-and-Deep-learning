@@ -23,7 +23,7 @@
 
 XGBoost怎么做分类？损失函数是什么（交叉熵损失函数）。叶子节点取值。
 
---> 叶子节点对应概率（sigmoid后）。[妙啊](https://zhuanlan.zhihu.com/p/46445201)
+--> 叶子节点回归权重（sigmoid后对应概率）。[妙啊](https://zhuanlan.zhihu.com/p/46445201)
 
 ![avater](GBDT分类损失函数及叶子节点值如何做分类.png)
 
