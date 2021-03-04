@@ -2,15 +2,13 @@ Lstm由输入门,遗忘门,输出门和一个cell组成。第一步是决定从c
 
 ![avater](LSTM.png)
 
-[RNN反向传播推导](https://zhuanlan.zhihu.com/p/28806793)
-
-[RNN梯度消失和爆炸](https://zhuanlan.zhihu.com/p/28687529)
+[RNN梯度消失和爆炸](https://zhuanlan.zhihu.com/p/28687529) 这个写的不错, 含反向传播推导
 
 [LSTM如何缓解梯度消失和爆炸](https://zhuanlan.zhihu.com/p/28749444) --> 公式被缩减部分有错误参照楼上正确版本，但总体思路清晰。
 
-[LSTM反向传播推导硬核](https://www.cnblogs.com/pinard/p/6519110.html)
+[LSTM反向传播推导硬核](https://www.cnblogs.com/pinard/p/6519110.html)  推导的很到位，清晰见到结论如下：
 
-梯度消失应该存在的可能性小一些，因为梯度是逐时刻累加。LSTM很好的缓解了梯度爆炸问题（传统的方法有梯度截断防止梯度爆炸也能取得很好的效果），但是对于梯度消失LSTM还是没怎么改善吧。离的远的时刻的误差传播梯度确实贡献小很多，长期依赖还是不能很好的被捕捉。
+反响传播更新W的梯度从原始RNN的累乘转变为由门控机制控制的累加。很好的缓解了梯度消失和爆炸的问题哇。2020.10.13。
 
 ![avater](LSTM原文.png)
 
